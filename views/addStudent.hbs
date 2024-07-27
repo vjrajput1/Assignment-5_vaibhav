@@ -40,19 +40,19 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             <label>Address (Street):</label>
-                            <input class="form-control" name="street" type="text" />
+                            <input class="form-control" name="addressStreet" type="text" />
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
                             <label>Address (City):</label>
-                            <input class="form-control" name="city" type="text" />
+                            <input class="form-control" name="addressCity" type="text" />
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
                             <label>Address (Province):</label>
-                            <input class="form-control" name="Province" type="text" />
+                            <input class="form-control" name="addressProvince" type="text" />
                         </div>
                     </div>
                 </div>
@@ -74,17 +74,17 @@
                         <div class="form-group">
                             <label>Enrollment Status:</label><br />
                             <label  class="checkbox-inline">
-                                <input type="radio" value="Full Time" /> Full Time
+                                <input type="radio" value="Full Time" name="status" /> Full Time
                             </label>
                             <label class="checkbox-inline">
-                                <input type="radio" value="Part Time" /> Part Time
+                                <input type="radio" value="Part Time" name="status" /> Part Time
                             </label>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
                             <label for="course">Enrolled in Course:</label>
-                            <select class="form-control" id="course">
+                            <select class="form-control" id="course" name="course">
                                 <option value="1">Relational Database Design and Implementation</option>
                                 <option value="2">Java Programming</option>
                                 <option value="3">Introduction to Cloud Computing</option>
